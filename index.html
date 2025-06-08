@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currículo - Gelzieny R. Martins</title>
+    <!-- Inclui o CDN do Tailwind CSS para fácil estilização -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Link para a fonte Inter do Google Fonts para uma tipografia moderna -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Inter", sans-serif; /* Define a fonte Inter como padrão */
+        background-color: #f3f4f6; /* Cor de fundo suave */
+      }
+    </style>
+  </head>
+  <body class="antialiased text-gray-800">
+    <!-- Container principal do currículo, centralizado e com largura limitada -->
+    <div class="max-w-4xl mx-auto my-8 p-6 bg-white shadow-lg rounded-xl">
+      <!-- Botão de Download do Currículo -->
+      <div class="text-right mb-6">
+        <button
+          id="downloadCvBtn"
+          class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-6 rounded-full shadow-lg transition duration-300 ease-in-out transform hover:scale-105"
+        >
+          Baixar Currículo
+        </button>
+      </div>
+
+      <!-- Seção de Cabeçalho: Nome, Título e Contato -->
+      <header class="text-center mb-8 pb-4 border-b-2 border-gray-200">
+        <h1 class="text-4xl font-bold text-gray-900 mb-2">
+          Gelzieny R. Martins
+        </h1>
+        <p class="text-xl text-indigo-600 font-medium mb-4">
+          Desenvolvedor Full-Stack | Python | Django | JavaScript | HTML | CSS |
+          FastAPI | APIs RESTful
+        </p>
+        <div class="flex flex-wrap justify-center gap-x-6 text-gray-600">
+          <p class="flex items-center">
+            <svg
+              class="w-5 h-5 mr-1 text-gray-500"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"
+              ></path>
+              <path
+                d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"
+              ></path>
+            </svg>
+            gelzieny@gmail.com
+          </p>
+          <a
+            href="https://www.linkedin.com/in/gelzieny"
+            target="_blank"
+            class="flex items-center hover:text-indigo-600 transition duration-300"
+          >
+            <svg
+              class="w-5 h-5 mr-1 text-gray-500"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M16.32 14.906c-.198-.38-.45-.73-.756-1.042C14.86 13.11 13.91 12.5 12 12.5c-1.91 0-2.86.61-3.564 1.364-.306.312-.558.662-.756 1.042-.198.38-.294.77-.294 1.178v.006c0 .408.096.798.294 1.178.198.38.45.73.756 1.042.704.754 1.654 1.364 3.564 1.364s2.86-.61 3.564-1.364c.306-.312.558-.662.756-1.042.198-.38.294-.77.294-1.178v-.006c0-.408-.096-.798-.294-1.178zM10 10.5c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+            LinkedIn
+          </a>
+          <p class="flex items-center">
+            <svg
+              class="w-5 h-5 mr-1 text-gray-500"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+            Rio Verde, Goiás, Brasil
+          </p>
+        </div>
+      </header>
+
+      <!-- Seção de Resumo -->
+      <section class="mb-8">
+        <h2
+          class="text-2xl font-semibold text-gray-900 mb-4 border-b border-gray-200 pb-2"
+        >
+          Resumo
+        </h2>
+        <p class="text-gray-700 leading-relaxed">
+          Olá! Sou Gelzieny R. Martins, apaixonada por tecnologia e inovação.
+          Meu objetivo é contribuir para projetos que gerem impacto tecnológico,
+          colaborando com equipes dinâmicas na criação de soluções que aprimorem
+          a experiência dos usuários.
+        </p>
+        <p class="text-gray-700 leading-relaxed mt-2">
+          Sou formada em Sistemas de Informação pela UEG (Unidade Santa Helena
+          de Goiás) e acumulo experiência em uma empresa especializada em gestão
+          de pagamentos, atuando tanto no suporte técnico quanto no
+          desenvolvimento de software.
+        </p>
+        <p class="text-gray-700 leading-relaxed mt-2">
+          Tenho sólido conhecimento e experiência nas seguintes tecnologias:
+          Python, Django, FastAPI, SQLAlchemy, Pytest, Git/GitHub, SQL.
+          Atualmente, estou me aprofundando em: DevOps, GitHub Actions, CI/CD,
+          Kubernetes, AWS, Terraform. Estou sempre em busca de crescimento
+          profissional que se alinhe aos meus princípios. Valorizo o aprendizado
+          contínuo, o trabalho em equipe e me dedico a entregar resultados de
+          alta qualidade. Além disso, tenho grande prazer em compartilhar meus
+          conhecimentos com os outros.
+        </p>
+      </section>
+
+      <!-- Seção de Habilidades -->
+      <section class="mb-8">
+        <h2
+          class="text-2xl font-semibold text-gray-900 mb-4 border-b border-gray-200 pb-2"
+        >
+          Habilidades
+        </h2>
+        <div class="flex flex-wrap gap-3">
+          <span
+            class="bg-indigo-100 text-indigo-800 text-sm font-medium px-3 py-1 rounded-full shadow-sm"
+            >Python</span
+          >
+          <span
+            class="bg-indigo-100 text-indigo-800 text-sm font-medium px-3 py-1 rounded-full shadow-sm"
+            >Django</span
+          >
+          <span
+            class="bg-indigo-100 text-indigo-800 text-sm font-medium px-3 py-1 rounded-full shadow-sm"
+            >FastAPI</span
+          >
+          <span
+            class="bg-indigo-100 text-indigo-800 text-sm font-medium px-3 py-1 rounded-full shadow-sm"
+            >SQLAlchemy</span
+          >
+          <span
+            class="bg-indigo-100 text-indigo-800 text-sm font-medium px-3 py-1 rounded-full shadow-sm"
+            >Pytest</span
+          >
+          <span
+            class="bg-indigo-100 text-indigo-800 text-sm font-medium px-3 py-1 rounded-full shadow-sm"
+            >Git/GitHub</span
+          >
+          <span
+            class="bg-indigo-100 text-indigo-800 text-sm font-medium px-3 py-1 rounded-full shadow-sm"
+            >SQL</span
+          >
+          <span
+            class="bg-indigo-100 text-indigo-800 text-sm font-medium px-3 py-1 rounded-full shadow-sm"
+            >HTML</span
+          >
+          <span
+            class="bg-indigo-100 text-indigo-800 text-sm font-medium px-3 py-1 rounded-full shadow-sm"
+            >CSS</span
+          >
+          <span
+            class="bg-indigo-100 text-indigo-800 text-sm font-medium px-3 py-1 rounded-full shadow-sm"
+            >JavaScript</span
+          >
+          <span
+            class="bg-indigo-100 text-indigo-800 text-sm font-medium px-3 py-1 rounded-full shadow-sm"
+            >APIs RESTful</span
+          >
+          <span
+            class="bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded-full shadow-sm"
+            >Inglês (Elementar)</span
+          >
+          <span
+            class="bg-green-100 text-green-800 text-sm font-medium px-3 py-1 rounded-full shadow-sm"
+            >DevOps</span
+          >
+          <span
+            class="bg-green-100 text-green-800 text-sm font-medium px-3 py-1 rounded-full shadow-sm"
+            >GitHub Actions CI/CD</span
+          >
+          <span
+            class="bg-green-100 text-green-800 text-sm font-medium px-3 py-1 rounded-full shadow-sm"
+            >Kubernetes</span
+          >
+          <span
+            class="bg-green-100 text-green-800 text-sm font-medium px-3 py-1 rounded-full shadow-sm"
+            >AWS</span
+          >
+          <span
+            class="bg-green-100 text-green-800 text-sm font-medium px-3 py-1 rounded-full shadow-sm"
+            >Terraform</span
+          >
+          <span
+            class="bg-yellow-100 text-yellow-800 text-sm font-medium px-3 py-1 rounded-full shadow-sm"
+            >Gestão de Tempo</span
+          >
+          <span
+            class="bg-yellow-100 text-yellow-800 text-sm font-medium px-3 py-1 rounded-full shadow-sm"
+            >Figma</span
+          >
+          <span
+            class="bg-yellow-100 text-yellow-800 text-sm font-medium px-3 py-1 rounded-full shadow-sm"
+            >Posicionamento em Redes Sociais</span
+          >
+          <span
+            class="bg-yellow-100 text-yellow-800 text-sm font-medium px-3 py-1 rounded-full shadow-sm"
+            >Masterizando o Tailwind</span
+          >
+        </div>
+      </section>
+
+      <!-- Seção de Experiência Profissional -->
+      <section class="mb-8">
+        <h2
+          class="text-2xl font-semibold text-gray-900 mb-4 border-b border-gray-200 pb-2"
+        >
+          Experiência
+        </h2>
+
+        <div class="mb-6 bg-gray-50 p-4 rounded-lg shadow-sm">
+          <h3 class="text-xl font-semibold text-gray-800">
+            Desenvolvedor de front-end
+          </h3>
+          <p class="text-lg text-indigo-700">Vólus</p>
+          <p class="text-sm text-gray-600 mb-2">
+            fevereiro de 2019 - setembro de 2024 (5 anos 8 meses) | Rio Verde,
+            Goiás, Brasil
+          </p>
+          <h4 class="font-medium text-gray-700">Função:</h4>
+          <ul class="list-disc list-inside text-gray-700 ml-4">
+            <li>Gestão de benefícios</li>
+            <li>Gestão de frotas</li>
+            <li>Orçamentação eletrônica</li>
+          </ul>
+          <h4 class="font-medium text-gray-700 mt-2">Responsabilidades:</h4>
+          <ul class="list-disc list-inside text-gray-700 ml-4">
+            <li>
+              Apoio à integração com APIs externas (Paysmart, Cellcard, Celcoin,
+              Unipix, Zenvia, Banco Arbi, Redecompras, Greenpass) às nossas
+              soluções, utilizando Python com Flask.
+            </li>
+            <li>Refatoração e documentação de código e projetos.</li>
+            <li>
+              Projeção e desenvolvimento de novas soluções para projetos
+              utilizando o framework Django.
+            </li>
+            <li>Manutenção nos projetos.</li>
+            <li>
+              Desenvolvimento de Webservices RESTFULL, utilizando a metodologia
+              de microsserviços com Kubernetes, Docker, Git e Jenkins.
+            </li>
+            <li>
+              Criação de relatórios e procedimentos com PL/SQL utilizando os
+              bancos de dados Oracle.
+            </li>
+            <li>
+              Suporte aos sistemas desenvolvidos e apoio ao time de
+              desenvolvedores.
+            </li>
+          </ul>
+        </div>
+
+        <div class="bg-gray-50 p-4 rounded-lg shadow-sm">
+          <h3 class="text-xl font-semibold text-gray-800">Estagiário</h3>
+          <p class="text-lg text-indigo-700">
+            SESI - Serviço Social da Indústria
+          </p>
+          <p class="text-sm text-gray-600">
+            março de 2017 - fevereiro de 2019 (2 anos) | Rio Verde GO
+          </p>
+        </div>
+      </section>
+
+      <!-- Seção de Formação Acadêmica -->
+      <section class="mb-8">
+        <h2
+          class="text-2xl font-semibold text-gray-900 mb-4 border-b border-gray-200 pb-2"
+        >
+          Formação Acadêmica
+        </h2>
+        <div class="mb-4 bg-gray-50 p-4 rounded-lg shadow-sm">
+          <h3 class="text-xl font-semibold text-gray-800">
+            Bacharelado, Tecnologia em Tecnologia da Informação/Sistemas da
+            Informação
+          </h3>
+          <p class="text-lg text-indigo-700">Universidade Estadual de Goiás</p>
+          <p class="text-sm text-gray-600">2015-2019</p>
+        </div>
+        <div class="bg-gray-50 p-4 rounded-lg shadow-sm">
+          <h3 class="text-xl font-semibold text-gray-800">
+            Especialização, Docência do Ensino Superior
+          </h3>
+          <p class="text-lg text-indigo-700">Educamais</p>
+          <p class="text-sm text-gray-600">2019-2020</p>
+        </div>
+      </section>
+
+      <!-- Seção de Certificados de Cursos -->
+      <section class="mb-8">
+        <h2
+          class="text-2xl font-semibold text-gray-900 mb-4 border-b border-gray-200 pb-2"
+        >
+          Certificados de Cursos
+        </h2>
+        <ul class="list-none space-y-4">
+          <li class="bg-gray-50 p-4 rounded-lg shadow-sm">
+            <div class="flex items-center mb-2">
+              <svg
+                class="w-6 h-6 mr-3 text-indigo-600"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm-1.293 14.707a1 1 0 01-1.414-1.414L10.586 12 8.293 9.707a1 1 0 011.414-1.414L12 10.586l2.293-2.293a1 1 0 011.414 1.414L13.414 12l2.293 2.293a1 1 0 01-1.414 1.414L12 13.414l-2.293 2.293z"
+                ></path>
+              </svg>
+              <h3 class="text-xl font-semibold text-gray-800">
+                Gestão de Tempo
+              </h3>
+            </div>
+          </li>
+          <li class="bg-gray-50 p-4 rounded-lg shadow-sm">
+            <div class="flex items-center mb-2">
+              <svg
+                class="w-6 h-6 mr-3 text-indigo-600"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm-1.293 14.707a1 1 0 01-1.414-1.414L10.586 12 8.293 9.707a1 1 0 011.414-1.414L12 10.586l2.293-2.293a1 1 0 011.414 1.414L13.414 12l2.293 2.293a1 1 0 01-1.414 1.414L12 13.414l-2.293 2.293z"
+                ></path>
+              </svg>
+              <h3 class="text-xl font-semibold text-gray-800">Figma</h3>
+            </div>           
+          </li>
+          <li class="bg-gray-50 p-4 rounded-lg shadow-sm">
+            <div class="flex items-center mb-2">
+              <svg
+                class="w-6 h-6 mr-3 text-indigo-600"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm-1.293 14.707a1 1 0 01-1.414-1.414L10.586 12 8.293 9.707a1 1 0 011.414-1.414L12 10.586l2.293-2.293a1 1 0 011.414 1.414L13.414 12l2.293 2.293a1 1 0 01-1.414 1.414L12 13.414l-2.293 2.293z"
+                ></path>
+              </svg>
+              <h3 class="text-xl font-semibold text-gray-800">
+                Posicionamento nas redes sociais
+              </h3>
+            </div>            
+          </li>
+          <li class="bg-gray-50 p-4 rounded-lg shadow-sm">
+            <div class="flex items-center mb-2">
+              <svg
+                class="w-6 h-6 mr-3 text-indigo-600"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm-1.293 14.707a1 1 0 01-1.414-1.414L10.586 12 8.293 9.707a1 1 0 011.414-1.414L12 10.586l2.293-2.293a1 1 0 011.414 1.414L13.414 12l2.293 2.293a1 1 0 01-1.414 1.414L12 13.414l-2.293 2.293z"
+                ></path>
+              </svg>
+              <h3 class="text-xl font-semibold text-gray-800">
+                Masterizando o Tailwind
+              </h3>
+            </div>            
+          </li>
+        </ul>
+      </section>
+    </div>
+
+    <!-- Link para o arquivo JavaScript compilado do TypeScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
